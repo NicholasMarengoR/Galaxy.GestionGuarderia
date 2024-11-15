@@ -1,0 +1,14 @@
+﻿version: '3.8'
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    restart: always
+    container_name: sqlserver_aplicaciones_empresariales
+    environment:
+      MSSQL_SA_PASSWORD: Password2024#
+      ACCEPT_EULA: Y
+      MSSQL_PID: Express
+    volumes:
+      - C:\Users\Nicholas\Nicholas data\Estudios\Galaxy Training .net\Docker\volumenes\sqlserver_data_app_proyectoF:/var/opt/mssql/data
+    ports:
+      - 1402:1433

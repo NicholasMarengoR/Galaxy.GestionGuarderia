@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Galaxy.GestionGuarderia.API", "Galaxy.GestionGuarderia.API\Galaxy.GestionGuarderia.API.csproj", "{D996762C-7812-47B2-BBD7-A1399C20EF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.GestionGuarderia.AccesDatos", "Galaxy.GestionGuarderia.AccesDatos\Galaxy.GestionGuarderia.AccesDatos.csproj", "{E77A8265-0D2A-40BD-B416-22EE0B55FD05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.GestionGuarderia.Entidades", "Galaxy.GestionGuarderia.Entidades\Galaxy.GestionGuarderia.Entidades.csproj", "{29D539CF-7BA7-4745-85ED-11D3BF23E85B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.GestionGuarderia.Repositorios", "Galaxy.GestionGuarderia.Repositorios\Galaxy.GestionGuarderia.Repositorios.csproj", "{CD08F2E4-25C0-4B26-9666-AB3F6C48082A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.GestionGuarderia.Negocio", "Galaxy.GestionGuarderia.Negocio\Galaxy.GestionGuarderia.Negocio.csproj", "{7B42DE1C-D34F-4E0A-ADC7-8561F110859C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Entidades", "01. Entidades", "{5007CC43-9B95-4CEB-92BB-0CE30555B85D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Acceso Datos", "02. Acceso Datos", "{CED9572B-08E0-4C85-A05D-C20D81D8E42C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Negocio", "03. Negocio", "{7CCA26A3-30AC-4AA1-B149-4A963F698980}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Servidor", "04. Servidor", "{8E7B4E7C-7789-47E0-988A-C110D90BCE61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Presentacion", "05. Presentacion", "{86A9D47A-F3F5-4E28-BDDF-31BD14EE9A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Galaxy.GestionGuarderia.UI", "Galaxy.GestionGuarderia.UI\Galaxy.GestionGuarderia.UI.csproj", "{C0AA3CE9-7E3F-4A28-B2E5-F9DDE2231BD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D996762C-7812-47B2-BBD7-A1399C20EF07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D996762C-7812-47B2-BBD7-A1399C20EF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D996762C-7812-47B2-BBD7-A1399C20EF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D996762C-7812-47B2-BBD7-A1399C20EF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77A8265-0D2A-40BD-B416-22EE0B55FD05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77A8265-0D2A-40BD-B416-22EE0B55FD05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77A8265-0D2A-40BD-B416-22EE0B55FD05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77A8265-0D2A-40BD-B416-22EE0B55FD05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D539CF-7BA7-4745-85ED-11D3BF23E85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D539CF-7BA7-4745-85ED-11D3BF23E85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D539CF-7BA7-4745-85ED-11D3BF23E85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D539CF-7BA7-4745-85ED-11D3BF23E85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD08F2E4-25C0-4B26-9666-AB3F6C48082A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD08F2E4-25C0-4B26-9666-AB3F6C48082A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD08F2E4-25C0-4B26-9666-AB3F6C48082A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD08F2E4-25C0-4B26-9666-AB3F6C48082A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B42DE1C-D34F-4E0A-ADC7-8561F110859C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B42DE1C-D34F-4E0A-ADC7-8561F110859C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B42DE1C-D34F-4E0A-ADC7-8561F110859C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B42DE1C-D34F-4E0A-ADC7-8561F110859C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AA3CE9-7E3F-4A28-B2E5-F9DDE2231BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AA3CE9-7E3F-4A28-B2E5-F9DDE2231BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AA3CE9-7E3F-4A28-B2E5-F9DDE2231BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AA3CE9-7E3F-4A28-B2E5-F9DDE2231BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D996762C-7812-47B2-BBD7-A1399C20EF07} = {8E7B4E7C-7789-47E0-988A-C110D90BCE61}
+		{E77A8265-0D2A-40BD-B416-22EE0B55FD05} = {CED9572B-08E0-4C85-A05D-C20D81D8E42C}
+		{29D539CF-7BA7-4745-85ED-11D3BF23E85B} = {5007CC43-9B95-4CEB-92BB-0CE30555B85D}
+		{CD08F2E4-25C0-4B26-9666-AB3F6C48082A} = {CED9572B-08E0-4C85-A05D-C20D81D8E42C}
+		{7B42DE1C-D34F-4E0A-ADC7-8561F110859C} = {7CCA26A3-30AC-4AA1-B149-4A963F698980}
+		{C0AA3CE9-7E3F-4A28-B2E5-F9DDE2231BD8} = {86A9D47A-F3F5-4E28-BDDF-31BD14EE9A9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B328DA07-E58E-4A14-AF17-82ED8740FB33}
+	EndGlobalSection
+EndGlobal

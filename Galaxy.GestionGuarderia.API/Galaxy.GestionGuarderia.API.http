@@ -1,0 +1,6 @@
+@Galaxy.GestionGuarderia.API_HostAddress = http://localhost:5111
+
+GET {{Galaxy.GestionGuarderia.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
