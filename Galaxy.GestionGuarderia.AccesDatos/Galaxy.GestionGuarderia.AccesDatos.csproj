@@ -20,7 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Galaxy.GestionGuarderia.API\Galaxy.GestionGuarderia.API.csproj" />
     <ProjectReference Include="..\Galaxy.GestionGuarderia.Entidades\Galaxy.GestionGuarderia.Entidades.csproj" />
+    <ProjectReference Include="..\Galaxy.GestionGuarderia.Negocio\Galaxy.GestionGuarderia.Negocio.csproj" />
+    <ProjectReference Include="..\Galaxy.GestionGuarderia.Repositorios\Galaxy.GestionGuarderia.Repositorios.csproj" />
   </ItemGroup>
 
 </Project>
